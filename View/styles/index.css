@@ -1,0 +1,62 @@
+body .logo-main {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Mongolian Baiti", sans-serif;
+  margin: 0;
+  background-color: black;
+}
+body .logo-main span:nth-child(1) {
+  color: yellow;
+}
+body .logo-main span:nth-child(2) {
+  color: red;
+}
+body .menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+}
+body .menu li {
+  float: left;
+  padding: 0 10px;
+}
+body .menu a, body .menu .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body .menu li a:hover,
+body .menu .dropdown:hover .dropbtn {
+  background-color: azure;
+  color: black;
+}
+body .menu li.dropdown {
+  display: inline-block;
+}
+body .menu .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+body .menu .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+body .menu .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+body .menu .dropdown:hover .dropdown-content {
+  display: block;
+}/*# sourceMappingURL=index.css.map */
